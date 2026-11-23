@@ -1,0 +1,1 @@
+tag @e[type=cushion,tag=takeacushion.checked,distance=..16] add takeacushion.tick

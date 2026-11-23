@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {data:{name: "."},Tags:["takeacushion.generic","takeacushion.marker","takeacushion.tick"]}

@@ -1,0 +1,1 @@
+execute unless entity @e[type=marker,tag=takeacushion.marker,distance=..10] if entity @e[type=cushion,tag=takeacushion.active,distance=..16,limit=1] run function takeacushion:marker/summon

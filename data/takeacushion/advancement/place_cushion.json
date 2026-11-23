@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "offhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "#minecraft:cushions"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "takeacushion:event/place_cushion"
+  }
+}
